@@ -23,6 +23,7 @@ body {
   width: 30%;
 }
 h1 {
+  color: #444;
   font-size: 42px;
   margin-bottom: 30px;
   font-weight: 600;
@@ -34,6 +35,7 @@ h1 {
 h3 {
   font-weight: 600;
   margin: 30px 0 20px;
+  color: orange;
 }
 p {
   color: #777;
@@ -59,4 +61,48 @@ p {
   background-position: right;
   padding-top: 4%;
   margin-bottom: 100px;
+}
+
+.experiences {
+  padding: 4%;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card {
+  height: inherit;
+  box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.219);
+  width: 35%;
+  margin: 15px;
+  padding: 35px 25px;
+  border-radius: 15px;
+  border-left: 7px solid;
+}
+
+.border-detailer {
+  border-image: linear-gradient(-45deg, orangered, orange);
+  border-image-slice: 1;
+}
+
+.border-learner {
+  border-image: linear-gradient(-45deg, green, lime);
+  border-image-slice: 1;
+}
+
+.border-dev {
+  border-image: linear-gradient(-45deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
