@@ -11,7 +11,7 @@ body {
   height: 500px;
   align-items: center;
   justify-content: space-around;
-  background-image: url(/images/top-banner.png);
+  background-image: url("/images/top-banner.png");
   background-repeat: no-repeat;
   padding-top: 4%;
   margin-bottom: 100px;
@@ -54,8 +54,9 @@ p {
   height: 500px;
   align-items: center;
   justify-content: space-around;
-  background-image: url(/images/top-banner.png);
+  background-image: url("/images/dream-bg.png");
   background-repeat: no-repeat;
+  background-position: right;
   padding-top: 4%;
   margin-bottom: 100px;
 }
